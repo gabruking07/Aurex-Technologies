@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 210 35% 98%;
+  --foreground: 218 44% 10%;
+  --card: 0 0% 100%;
+  --card-foreground: 218 44% 10%;
+  --primary: 213 94% 42%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 198 100% 94%;
+  --secondary-foreground: 217 61% 18%;
+  --muted: 210 30% 94%;
+  --muted-foreground: 218 16% 42%;
+  --accent: 189 85% 46%;
+  --accent-foreground: 218 44% 10%;
+  --border: 214 24% 88%;
+  --input: 214 24% 88%;
+  --ring: 213 94% 42%;
+}
+
+.dark {
+  --background: 219 50% 6%;
+  --foreground: 210 35% 96%;
+  --card: 218 43% 10%;
+  --card-foreground: 210 35% 96%;
+  --primary: 209 100% 62%;
+  --primary-foreground: 218 44% 9%;
+  --secondary: 217 43% 16%;
+  --secondary-foreground: 210 35% 96%;
+  --muted: 217 32% 14%;
+  --muted-foreground: 216 18% 68%;
+  --accent: 188 88% 54%;
+  --accent-foreground: 218 44% 9%;
+  --border: 218 28% 20%;
+  --input: 218 28% 20%;
+  --ring: 209 100% 62%;
+}
+
+* {
+  border-color: hsl(var(--border));
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, hsl(198 100% 92% / 0.72), transparent 36rem),
+    linear-gradient(180deg, hsl(var(--background)), hsl(var(--background)));
+  color: hsl(var(--foreground));
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+.dark body {
+  background:
+    radial-gradient(circle at top left, hsl(211 100% 28% / 0.35), transparent 34rem),
+    linear-gradient(180deg, hsl(var(--background)), hsl(222 58% 4%));
+}
+
+::selection {
+  background: hsl(var(--primary) / 0.22);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.section-band {
+  border-top: 1px solid hsl(var(--border) / 0.7);
+}
