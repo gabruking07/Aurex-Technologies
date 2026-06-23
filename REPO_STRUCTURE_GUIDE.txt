@@ -188,7 +188,7 @@ npm run lint
 npm run typecheck
 
 next.config.ts
-Next.js config. Important: build output is set to .next-build instead of .next because .next was getting locked on your system.
+Next.js config. Uses the default Next.js build output folder, .next, so Vercel can detect the deployment output correctly.
 
 tailwind.config.ts
 Tailwind theme setup, colors, font config, container config and animation config.
@@ -221,7 +221,7 @@ Installed packages. Do not edit and do not upload.
 Old generated Next cache. Ignore.
 
 .next-build/
-Current generated build folder. Ignore.
+Old generated build folder from the previous custom build output setting. Ignore or delete locally.
 
 tsconfig.tsbuildinfo
 TypeScript cache. Ignore.
