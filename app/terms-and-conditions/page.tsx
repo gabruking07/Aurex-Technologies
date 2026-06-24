@@ -18,35 +18,35 @@ const sections = [
   {
     title: "Services",
     body: [
-      "Aurex Technologies provides website development, web applications, e-commerce development, UI/UX design, SEO optimization, and maintenance services.",
-      "Project scope, timelines, deliverables, pricing, revisions, and support terms are confirmed separately in written proposals, invoices, or agreements."
+      "Aurex Technologies provides website development, web applications, e-commerce development, UI/UX design, SEO optimization and maintenance services.",
+      "Project scope, timelines, deliverables, pricing, revisions and support terms are confirmed separately in written proposals, invoices or agreements."
     ]
   },
   {
     title: "Client Responsibilities",
     body: [
-      "Clients are responsible for providing accurate information, timely feedback, approved content, access credentials, and any required third-party materials.",
-      "Delays in approvals, content, payments, or access may affect project timelines and delivery dates."
+      "Clients are responsible for providing accurate information, timely feedback, approved content, access credentials and any required third-party materials.",
+      "Delays in approvals, content, payments or access may affect project timelines and delivery dates."
     ]
   },
   {
     title: "Payments and Revisions",
     body: [
-      "Payments, deposits, milestone terms, and refund eligibility are defined in the project proposal or invoice shared with the client.",
-      "Revision rounds are limited to the agreed project scope. Additional work, feature changes, or new pages may require a separate quote."
+      "Payments, deposits, milestone terms and refund eligibility are defined in the project proposal or invoice shared with the client.",
+      "Revision rounds are limited to the agreed project scope. Additional work, feature changes or new pages may require a separate quote."
     ]
   },
   {
     title: "Intellectual Property",
     body: [
-      "Aurex Technologies retains ownership of its pre-existing tools, internal processes, reusable code, templates, and know-how.",
+      "Aurex Technologies retains ownership of its pre-existing tools, internal processes, reusable code, templates and know-how.",
       "Client-specific final deliverables transfer according to the written project agreement after full payment is received, except for third-party assets governed by their own licenses."
     ]
   },
   {
     title: "Limitation of Liability",
     body: [
-      "Aurex Technologies is not liable for indirect, incidental, consequential, or loss-of-profit damages arising from website use, third-party platforms, hosting providers, plugins, integrations, or client-supplied materials.",
+      "Aurex Technologies is not liable for indirect, incidental, consequential or loss-of-profit damages arising from website use, third-party platforms, hosting providers, plugins, integrations or client-supplied materials.",
       "We aim to deliver reliable work, but cannot guarantee uninterrupted website availability or third-party service performance."
     ]
   },

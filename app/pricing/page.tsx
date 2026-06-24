@@ -14,7 +14,7 @@ export default function PricingPage() {
       <PageHero
         eyebrow="Pricing"
         title="Straightforward packages for serious digital growth."
-        description="Choose a lean launch package, a business-ready build, or a custom premium engagement shaped around your product roadmap."
+        description="Choose a lean launch package, a business-ready build or a custom premium engagement shaped around your product roadmap."
       />
       <PricingSection compact />
       <FaqSection />

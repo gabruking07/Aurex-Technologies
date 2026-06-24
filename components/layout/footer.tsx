@@ -65,7 +65,7 @@ export function Footer() {
       <div className="border-t py-5">
         <div className="container flex flex-col gap-2 text-sm text-muted-foreground">
           <p>{"\u00a9"} 2026 Aurex Technologies. All Rights Reserved.</p>
-          <p>Unauthorized reproduction or distribution of any content, code, design, or assets is prohibited.</p>
+          <p>Unauthorized reproduction or distribution of any content, code, design or assets is prohibited.</p>
         </div>
       </div>
     </footer>

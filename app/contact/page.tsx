@@ -5,7 +5,7 @@ import { PageHero } from "@/components/page-hero";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Book a free consultation with Aurex Technologies for your next website, web application, or digital product."
+  description: "Book a free consultation with Aurex Technologies for your next website, web application or digital product."
 };
 
 export default function ContactPage() {
